@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZ206WT75S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TZ206WT75S');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="과일,야채, 쇼핑몰">
+    <meta name="author" content="JangJinWon">
+    <title>Welcome to JinWon's Shopping Mall</title>
+    <script src="https://kit.fontawesome.com/9804c0d28f.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./css/mystyle.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <style>
+      section{
+         display: flex;
+      }
+      .content{
+         flex: 4;
+      }
+      aside{
+         flex: 1;
+      }   
+   </style>
+</head>
+<body>
+ <header id="home"> 
+   <i class="fa-sharp fa-solid fa-bars"></i>
+    <h1> JinWon Shop</h1>
+ </header>
+ <nav>  
+   <ul>
+      <li><a href="#">소개</a></li>
+      <li><a href="#">과일</a></li>
+      <li><a href="#">야채</a></li>
+      <li><a href="#">방명록</a></li>
+   </ul>
+ </nav>
+ <section>
+   <div class="content">
+    <article>
+      <div class="logo">
+      <img src="./fruits/logo.jpg" class="" alt="메인이미지" width="50%">
+      </div>
+      <div class="인기">
+      <h2>인기 카테고리 상품</h2>
+      <a href="#">
+        <img src="./fruits/apple.jpg">
+        <p>apple</p>
+        <p class="price">25,000</p></a>
+      <a href="#">
+        <img src="./fruits/apple2.jpg">
+        <p>best apple</p>
+        <p class="price">40,000</p>
+      </a>
+      <a href="#">
+        <img src="./fruits/bananas.jpg">
+        <p>bananas</p>
+        <p class="price">30,000</p>
+      </a>
+      <a href="#">
+        <img src="./fruits/blueberries.jpg">
+        <p>blueberries</p>
+        <p class="price">35,000</p>
+      </a>
+      <a href="#">
+        <img src="./fruits/pomegranate.jpg">
+        <p>pomegranate</p>
+        <p class="price">40,000</p>
+      </a>
+      <a href="#">
+        <img src="./fruits/strawberry.jpg">
+        <p>strawberry</p>
+        <p class="price">20,000</p>
+      </a>
+      </div>
+    </article>
+    <br><br>
+    <article>
+    </div>
+    <aside>
+      <div class="link">
+         <a href="./gallery.html">방명록</a><br>
+         <a href="#home">시작이동</a>
+      </div>
+      <div class="login">
+         <h2> 로그인</h2>
+         <form action="#" method="get">
+            <!--input:text-->
+            회원ID<input type="text" class="w3-input" name="id" id=""><br>
+            비밀번호 <input type="password" class="w3-input" name="pw" id=""><br>
+            <br>
+            <input type="submit" class="w3-button w3-khaki" value="로그인">
+            <input type="reset" class="w3-button w3-khaki" value="재설정"><br>
+         </form>
+      </div>
+    </aside>
+ </section>
+ <footer> 저작권과 주소 
+   <div class="sns">
+      <a href="http://facebook.com/s">
+      <i class="fa-brands fa-facebook"></i></a>
+      <a href="http://twitter.com">
+      <i class="fa-brands fa-twitter"></i></a>
+      <a href="http://naver.com">
+      <i class="fa-solid fa-house"></i></a>
+   </div>
+ </footer>
+</body>
+</html>
